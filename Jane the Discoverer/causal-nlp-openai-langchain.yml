@@ -1,0 +1,30 @@
+name: causal-nlp-openai-langchain
+channels:
+- defaults
+- conda-forge
+- nvidia
+- pytorch
+dependencies:
+- python=3.9
+- pandas
+- xlrd
+- openpyxl
+- scikit-learn
+- matplotlib
+- networkx
+- seaborn
+- tqdm
+- nb_conda
+- ipywidgets
+- pytorch
+- pytorch-cuda=11.7
+- pip
+- pip:
+  - openai
+  - tiktoken
+  - docarray
+  - wikipedia
+  - langchain==0.0.232
+  - DateTime
+  - dowhy==0.8
+  - gcastle==1.0.3

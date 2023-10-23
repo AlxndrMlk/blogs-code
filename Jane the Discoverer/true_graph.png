@@ -1,0 +1,8 @@
+digraph {
+	altitude
+	oxygen_density
+	temperature
+	risk_of_death
+	mehendretex
+	altitude -> temperature
+}
